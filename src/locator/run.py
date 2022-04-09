@@ -4,9 +4,6 @@ import argparse
 import time
 import numpy as np
 import torch
-# BE CAREFUL with these
-# star imports!! Can accidentally
-# overload things easily
 import locator.params as params
 import locator.network as model
 import torch.nn as nn
